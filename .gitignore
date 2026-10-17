@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets/
+credentials/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, temporary files, and backups
+*.log
+*.tmp
+*.swp
+*.swo
+*.before_*
+*.bak
+*.backup
+
+# Local datasets and large derived arrays
+data/mit-bih/
+X_test.npy
+y_test.npy
+
+# Model checkpoints: keep out of Git until approved
+*.pt
+*.pth
+*.ckpt
+
+# Generated evaluation output; explicitly add approved figures if needed
+# evaluation/results/
+# evaluation/confusion_matrix.png
+
+# Local Streamlit configuration/secrets
+.streamlit/secrets.toml
