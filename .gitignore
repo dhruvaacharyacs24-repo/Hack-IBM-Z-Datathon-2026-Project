@@ -51,3 +51,6 @@ mit-bih-arrhythmia-database-1.0.0.zip
 
 # Archives
 ECG_DASHBOARD.zip
+
+# Include the approved CardioSentinel model checkpoint
+!ecg_cnn_v2.pt
