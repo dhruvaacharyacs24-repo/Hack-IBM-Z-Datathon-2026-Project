@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use CardioSentinel, please cite this software repository."
+title: "CardioSentinel: Explainable ECG Arrhythmia Detection"
+type: software
+authors:
+  - name: "CardioSentinel Team"
+    affiliation: "IBM Z Datathon 2026"
+version: "1.0.0"
+date-released: "2026-10-18"
+url: "https://github.com/YOUR-USERNAME/CardioSentinel"
+abstract: >-
+  An experimental ECG analysis prototype using a PyTorch 1D CNN,
+  Grad-CAM explainability, and a Streamlit dashboard running on
+  IBM LinuxONE Community Cloud.
+keywords:
+  - ECG
+  - arrhythmia
+  - explainable AI
+  - PyTorch
+  - IBM LinuxONE
+license: MIT

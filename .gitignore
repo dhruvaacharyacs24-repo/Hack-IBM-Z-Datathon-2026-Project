@@ -1,19 +1,53 @@
+# Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Secrets and credentials
 .env
 .env.*
+!.env.example
 *.pem
 *.key
+id_rsa
+id_ed25519
+secrets/
+.streamlit/secrets.toml
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Backups
 *.before_*
 *.backup
 *.bak
-*.log
-data/
+
+# ECG dataset and evaluation arrays
+data/mit-bih/
 X_test.npy
 y_test.npy
+mit-bih-arrhythmia-database-1.0.0.zip
+
+# Model checkpoints: review sharing permission before publishing
 *.pt
 *.pth
 *.ckpt
-*.zip
+
+# Archives
+ECG_DASHBOARD.zip
