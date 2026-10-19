@@ -1,6 +1,6 @@
 # Evaluation
 
-This directory contains scripts and utilities for evaluating the ECG classification model.
+The directory "\role_b_review" contains scripts and utilities for evaluating the ECG classification model.
 
 ## Files
 
