@@ -7,7 +7,7 @@ authors:
     affiliation: "IBM Z Datathon 2026"
 version: "1.0.0"
 date-released: "2026-10-18"
-url: "https://github.com/YOUR-USERNAME/CardioSentinel"
+url: "https://github.com/dhruvaacharyacs24-repo/Hack-IBM-Z-Datathon-2026-Project"
 abstract: >-
   An experimental ECG analysis prototype using a PyTorch 1D CNN,
   Grad-CAM explainability, and a Streamlit dashboard running on
